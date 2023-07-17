@@ -82,24 +82,26 @@
     font-size: 24px;
   }
   #menuItem {
-    width: 45vw;
+    width: 42vw;
     height: 45vw;
   }
   #menuImgCover {
     width: 35vw;
     height: 35vw;
+    max-height: 240px;
     line-height: 35vw;
   }
   #menuImg {
-    width: 32vw;
-    height: 32vw;
+    width: 29vw;
+    height: 29vw;
+    max-height: 240px;
   }
   #menuName {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
   }
   #menuPrice {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
   }
 }

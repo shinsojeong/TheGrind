@@ -11,6 +11,11 @@
   font-weight: 700;
 }
 
+#menuPrice {
+  text-align: center;
+  margin: 0 auto 10px auto;
+}
+
 #menuSet {
   display: flex;
   justify-content: space-around;
@@ -32,10 +37,21 @@
 #menuName {
   text-align: center;
   font-weight: 300;
+  margin: 20px auto 5px auto;
+  word-break: keep-all;
 }
 
 #menuImg {
   object-fit: contain;
+}
+
+@media (max-width: 375px) {
+  #menuName {
+    font-size: 14px;
+  }
+  #menuPrice {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 599px) {
@@ -44,7 +60,7 @@
   }
   #menuItem {
     width: 40vw;
-    height: 40vw;
+    height: 50vw;
   }
   #menuImgCover {
     width: 20vw;
@@ -62,7 +78,7 @@
   }
   #menuItem {
     width: 30vw;
-    height: 30vw;
+    height: 33vw;
   }
   #menuImgCover {
     width: 30vw;
@@ -73,7 +89,7 @@
     height: 20vw;
   }
   #menuName {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 

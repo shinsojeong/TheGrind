@@ -7,8 +7,8 @@ const MenuSet = ({title, assets, setViewState}) => {
     <div id="menuCover">
       <p id="menuTitle">{title}</p>
       <div id="menuSet">
-        {assets.map(({name, src}, idx) => {
-          return <MenuItem key={idx} name={name} src={src} setViewState={setViewState}/>
+        {assets.map(({name, src, price}, idx) => {
+          return <MenuItem key={idx} name={name} src={src} price={price} setViewState={setViewState}/>
         })}
       </div>
     </div>

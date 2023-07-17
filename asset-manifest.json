@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shinsojeong/TheGrind/static/css/main.4a34dfab.css",
-    "main.js": "/shinsojeong/TheGrind/static/js/main.bbd8380f.js",
-    "index.html": "/shinsojeong/TheGrind/index.html",
-    "main.4a34dfab.css.map": "/shinsojeong/TheGrind/static/css/main.4a34dfab.css.map",
-    "main.bbd8380f.js.map": "/shinsojeong/TheGrind/static/js/main.bbd8380f.js.map"
+    "main.css": "/TheGrind/static/css/main.4a34dfab.css",
+    "main.js": "/TheGrind/static/js/main.547fa6ad.js",
+    "index.html": "/TheGrind/index.html",
+    "main.4a34dfab.css.map": "/TheGrind/static/css/main.4a34dfab.css.map",
+    "main.547fa6ad.js.map": "/TheGrind/static/js/main.547fa6ad.js.map"
   },
   "entrypoints": [
     "static/css/main.4a34dfab.css",
-    "static/js/main.bbd8380f.js"
+    "static/js/main.547fa6ad.js"
   ]
 }

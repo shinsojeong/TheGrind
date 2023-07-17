@@ -18,7 +18,7 @@
 
 #menuSet {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -26,12 +26,15 @@
   margin: 0;
   border: 1px solid #999999;
   border-radius: 10px;
-  margin: 0 0 10px 0;
+  margin: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
 }
 
 #menuImgCover {
   margin: 0 auto;
   text-align: center;
+  flex: 1;
 }
 
 #menuName {
@@ -43,7 +46,7 @@
 
 #menuImg {
   object-fit: contain;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 @media (max-width: 375px) {
@@ -64,13 +67,13 @@
     height: 50vw;
   }
   #menuImgCover {
-    width: 20vw;
-    height: calc(30vw - 10px);
-    line-height: calc(30vw - 10px);
+    width: 27vw;
+    height: calc(27vw - 10px);
+    line-height: calc(27vw - 10px);
   }
   #menuImg {
-    width: 20vw;
-    height: 20vw;
+    width: 27vw;
+    height: 27vw;
   }
 }
 
@@ -79,20 +82,25 @@
     font-size: 24px;
   }
   #menuItem {
-    width: 30vw;
-    height: 34vw;
+    width: 45vw;
+    height: 45vw;
   }
   #menuImgCover {
-    width: 30vw;
-    height: calc(30vw - 60px);
-    line-height: calc(30vw - 60px);
+    width: 35vw;
+    height: 35vw;
+    line-height: 35vw;
   }
   #menuImg {
-    width: 20vw;
-    height: 20vw;
+    width: 32vw;
+    height: 32vw;
   }
   #menuName {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  #menuPrice {
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 

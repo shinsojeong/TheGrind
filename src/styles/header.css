@@ -1,0 +1,22 @@
+#header {
+  width: 100vw;
+  background-color: black;
+  padding: 30px;
+  position: fixed;
+  z-index: 99;
+}  
+
+#text {
+  font-family: 'Pretendard-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  #text {
+    font-size: 30px;
+  }
+}

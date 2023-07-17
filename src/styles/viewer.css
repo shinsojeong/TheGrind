@@ -1,0 +1,56 @@
+#viewer {
+  position: fixed;
+  left: 5vw;
+  width: 90vw;
+  height: 80vh;
+  border: 1px solid #999999;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 5px 5px 5px #eeeeee;
+  -webkit-animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+#viewerName {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#viewerImg {
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+@-webkit-keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@keyframes fade-in {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+@media (max-width: 599px) {
+  #viewer {
+    top: 90px;
+  }
+  #viewerName {
+    font-size: 20px;
+  }
+  #viewerImg {
+    width: 50vw;
+    max-height: 35vh;
+  }
+}
+
+@media (min-width: 600px) {
+  #viewer {
+    top: 125px;
+  }
+  #viewerImg {
+    width: 60vw;
+    max-height: 40vh;
+  }
+}
+

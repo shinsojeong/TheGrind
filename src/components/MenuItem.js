@@ -3,11 +3,12 @@ import '../styles/menu.css';
 
 const MenuItem = ({src, name, price, setViewState}) => {
   const click = () => {
-    console.log("The Grind");
-    // setViewState({
-    //   name,
-    //   src,
-    // });
+    if (window.screen.width < 1024) {
+      setViewState({
+        name,
+        src,
+      });
+    }
   };
 
   return (

@@ -2,7 +2,8 @@
   position: fixed;
   left: 5vw;
   width: 90vw;
-  height: 80vh;
+  height: 70vh;
+  line-height: 70vh;
   border: 1px solid #999999;
   border-radius: 10px;
   background-color: white;
@@ -18,8 +19,8 @@
 }
 
 #viewerImg {
-  margin-top: 40px;
   object-fit: contain;
+  vertical-align: middle;
 }
 
 @-webkit-keyframes fade-in {
@@ -39,18 +40,18 @@
     font-size: 20px;
   }
   #viewerImg {
-    width: 50vw;
+    width: 80vw;
     max-height: 35vh;
   }
 }
 
 @media (min-width: 600px) {
   #viewer {
-    top: 125px;
+    top: calc(50% - 50vw);
   }
   #viewerImg {
-    width: 60vw;
-    max-height: 40vh;
+    width: 80vw;
+    max-height: 50vh;
   }
 }
 

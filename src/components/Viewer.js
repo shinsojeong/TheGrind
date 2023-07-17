@@ -3,16 +3,18 @@ import '../styles/viewer.css';
 
 const Viewer = ({name, src, setViewState}) => {
   const close = () => {
-    setViewState({
-      name: "",
-      src: "",
-    })
+    if (window.screen.width < 1024) {
+      setViewState({
+        name: "",
+        src: "",
+      })
+    }
   };
 
   return (
     <div id="viewer" onClick={() => close()}>
       <img id="viewerImg" src={`${process.env.PUBLIC_URL}/images/menu/${src}`} alt={name} />
-      <p id="viewerName">{name}</p>
+      {/* <p id="viewerName">{name}</p> */}
     </div>
   );
 };

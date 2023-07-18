@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TheGrind/static/css/main.4adedfee.css",
-    "main.js": "/TheGrind/static/js/main.dfee2ca0.js",
+    "main.js": "/TheGrind/static/js/main.eab1a56c.js",
     "index.html": "/TheGrind/index.html",
     "main.4adedfee.css.map": "/TheGrind/static/css/main.4adedfee.css.map",
-    "main.dfee2ca0.js.map": "/TheGrind/static/js/main.dfee2ca0.js.map"
+    "main.eab1a56c.js.map": "/TheGrind/static/js/main.eab1a56c.js.map"
   },
   "entrypoints": [
     "static/css/main.4adedfee.css",
-    "static/js/main.dfee2ca0.js"
+    "static/js/main.eab1a56c.js"
   ]
 }

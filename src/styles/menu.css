@@ -4,7 +4,7 @@
 }
 
 #menuCover {
-  padding: 0 0 50px 0;
+  padding: 0 0 40px 0;
 }
 
 #menuTitle {
@@ -13,7 +13,7 @@
 
 #menuPrice {
   text-align: center;
-  margin: 0 auto 10px auto;
+  margin: 0 auto 5px auto;
 }
 
 #menuSet {
@@ -26,7 +26,7 @@
   margin: 0;
   border: 1px solid #999999;
   border-radius: 10px;
-  margin: 0 0 20px 0;
+  margin: 0 0 3px 0;
   display: flex;
   flex-direction: column;
 }
@@ -78,23 +78,36 @@
 }
 
 @media (min-width: 600px) {
+  #menu {
+    height: calc(100vh - 130px);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+  }
+  .menuBundle {
+    flex: 0 0 auto;
+    height: 100%;
+    min-height: calc(100vh - 100px);
+    scroll-snap-align: start end;
+  }
   #menuTitle {
     font-size: 24px;
   }
   #menuItem {
-    width: 42vw;
-    height: 45vw;
+    width: 30vw;
+    height: 32vw;
   }
   #menuImgCover {
-    width: 35vw;
-    height: 35vw;
-    max-height: 240px;
-    line-height: 35vw;
+    width: 25vw;
+    height: 25vw;
+    max-height: 200px;
+    line-height: 20vw;
   }
   #menuImg {
-    width: 29vw;
-    height: 29vw;
-    max-height: 240px;
+    width: 18vw;
+    height: 18vw;
+    max-height: 200px;
   }
   #menuName {
     font-size: 18px;

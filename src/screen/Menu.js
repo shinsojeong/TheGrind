@@ -12,11 +12,17 @@ const Menu = () => {
 
   return (
     <div id="menu">
-      <MenuSet title="Coffee" assets={coffee} setViewState={setViewState}/>
-      <MenuSet title="Milk" assets={milk} setViewState={setViewState}/>
-      <MenuSet title="Fresh juice" assets={freshJuice} setViewState={setViewState}/>
-      <MenuSet title="Tea" assets={tea} setViewState={setViewState}/>
-      <MenuSet title="Ade & Smoothie" assets={adeAndSmoothie} setViewState={setViewState}/>
+      <div className="menuBundle" id="menuBundle1">
+        <MenuSet title="Coffee" assets={coffee} setViewState={setViewState}/>
+      </div>
+      <div className="menuBundle" id="menuBundle2">
+        <MenuSet title="Milk" assets={milk} setViewState={setViewState}/>
+        <MenuSet title="Fresh juice" assets={freshJuice} setViewState={setViewState}/>
+      </div>
+      <div className="menuBundle" id="menuBundle3">
+        <MenuSet title="Tea" assets={tea} setViewState={setViewState}/>
+        <MenuSet title="Ade & Smoothie" assets={adeAndSmoothie} setViewState={setViewState}/>
+      </div>
 
       {viewState.name !== "" && viewState.src !== "" &&
         <Viewer src={viewState.src} name={viewState.name} setViewState={setViewState}/>

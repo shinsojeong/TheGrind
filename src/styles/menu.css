@@ -1,6 +1,11 @@
 #menu {
   -webkit-animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
           animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+#menu::-webkit-scrollbar {
+  display: none;
 }
 
 #menuCover {
@@ -18,7 +23,7 @@
 
 #menuSet {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   flex-wrap: wrap;
 }
 

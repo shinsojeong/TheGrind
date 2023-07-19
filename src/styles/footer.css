@@ -1,0 +1,17 @@
+#footer {
+  width: 100%;
+  max-height: max-content;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+
+#footer > p {
+  font-size: 11px;
+  text-align: center;
+  margin: 3px auto;
+  color: white;
+  margin: 10px auto;
+}

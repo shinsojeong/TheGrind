@@ -54,7 +54,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media ((min-width: 600px) and (max-width: 899px)) {
   #viewer {
     top: calc(50% - 50vw);
   }
@@ -64,3 +64,12 @@
   }
 }
 
+@media (min-width: 900px) {
+  #viewer {
+    top: 120px;
+  }
+  #viewerImg {
+    width: 80vw;
+    max-height: 50vh;
+  }
+}

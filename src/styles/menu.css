@@ -8,12 +8,27 @@
   display: none;
 }
 
+.menuBundle {
+  margin-bottom: 30px;
+}
+
 #menuCover {
   padding: 0 0 40px 0;
+  text-align: center;
 }
 
 #menuTitle {
   font-weight: 700;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  letter-spacing: 2px;
+}
+
+#menuDesc {
+  text-align: center;
+  margin: 0;
 }
 
 #menuPrice {
@@ -23,11 +38,12 @@
 
 #menuSet {
   display: flex;
-  justify-content:space-around;
+  gap: 2px;
   flex-wrap: wrap;
 }
 
 #menuItem {
+  flex: 1;
   margin: 0;
   border: 1px solid #999999;
   border-radius: 10px;
@@ -44,8 +60,8 @@
 
 #menuName {
   text-align: center;
-  font-weight: 300;
-  margin: 20px auto 5px auto;
+  font-weight: 600;
+  margin: 20px auto 3px auto;
   word-break: keep-all;
 }
 
@@ -54,22 +70,49 @@
   vertical-align: middle;
 }
 
-@media (max-width: 375px) {
-  #menuName {
+@media ((max-width: 412px)) {
+  #menu {
+    height: calc(100vh - 130px);
+    display: flex;
+    flex-direction: column;
+  }
+  .menuBundle {
+    flex: 1 1;
+  }
+  #menuTitle {
+    font-size: 16px;
+  }
+  #menuItem {
+    width: 40vw;
+    height: 50vw;
+  }
+  #menuName, #menuPrice {
     font-size: 14px;
   }
-  #menuPrice {
-    font-size: 14px;
+  #menuDesc {
+    font-size: 12px;
+  }
+  #menuImgCover {
+    width: 27vw;
+    height: calc(27vw);
+    line-height: calc(27vw);
+  }
+  #menuImg {
+    width: 24vw;
+    height: 24vw;
   }
 }
 
-@media (max-width: 599px) {
+@media ((min-width: 413px) and (max-width: 599px)) {
   #menuTitle {
     font-size: 20px;
   }
   #menuItem {
     width: 40vw;
     height: 50vw;
+  }
+  #menuDesc {
+    font-size: 14px;
   }
   #menuImgCover {
     width: 27vw;
@@ -82,7 +125,7 @@
   }
 }
 
-@media (min-width: 600px) {
+/* @media ((min-width: 600px) and (max-width: 1024px)) {
   #menu {
     height: calc(100vh - 130px);
     display: flex;
@@ -100,8 +143,48 @@
     font-size: 24px;
   }
   #menuItem {
-    width: 30vw;
+    width: 29vw;
     height: 32vw;
+  }
+  #menuImgCover {
+    width: 25vw;
+    height: 25vw;
+    max-height: 200px;
+    line-height: 20vw;
+  }
+  #menuImg {
+    width: 18vw;
+    height: 18vw;
+    max-height: 200px;
+  }
+  #menuName {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  #menuPrice {
+    font-size: 16px;
+    font-weight: 600;
+  }
+} */
+
+@media ((min-width: 600px)) {
+  #menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .menuBundle {
+    flex: 0 0 auto;
+    height: 100%;
+  }
+  #menuTitle {
+    font-size: 24px;
+  }
+  #menuItem {
+    width: 29vw;
+    height: 32vw;
+  }
+  #menuDesc {
+    font-size: 16px;
   }
   #menuImgCover {
     width: 25vw;

@@ -3,12 +3,12 @@ import '../styles/viewer.css';
 
 const Viewer = ({name, src, setViewState}) => {
   const close = () => {
-    if (window.screen.width < 1024) {
+    // if (window.screen.width < 1024) {
       setViewState({
         name: "",
         src: "",
       })
-    }
+    // }
   };
 
   return (

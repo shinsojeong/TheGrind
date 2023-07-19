@@ -1,0 +1,50 @@
+#tagWrap {
+  position: absolute;
+}
+
+#tag {
+  width: 2.8rem;
+  height: 2.8em;
+  border-radius: 2.8rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 5px;
+}
+
+#tagText {
+  font-size: 0.65em;
+  font-weight: 600;
+  word-break: keep-all;
+  margin: 0;
+}
+
+@media ((max-width: 412px)) {
+  #tag {
+    width: 36px;
+    height: 36px;
+    bottom: calc(-50vw + 5px);
+  }
+  #tagText {
+    font-size: 6.5px;
+    word-break: keep-all;
+  }
+}
+
+@media ((min-width: 413px) and (max-width: 599px)) {
+  #tag {
+    bottom: calc(-50vw + 5px);
+  }
+}
+
+@media ((min-width: 600px)) {
+  #tag {
+    width: 60px;
+    height: 60px;
+    bottom: calc(-32vw + 5px);
+  }
+  #tagText {
+    font-size: 16px;
+    word-break: keep-all;
+  }
+}

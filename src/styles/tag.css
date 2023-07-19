@@ -17,6 +17,7 @@
   font-weight: 600;
   word-break: keep-all;
   margin: 0;
+  text-align: center;
 }
 
 @media ((max-width: 412px)) {
@@ -39,12 +40,12 @@
 
 @media ((min-width: 600px)) {
   #tag {
-    width: 60px;
-    height: 60px;
+    width: 54px;
+    height: 54px;
     bottom: calc(-32vw + 5px);
   }
   #tagText {
-    font-size: 16px;
+    font-size: 14px;
     word-break: keep-all;
   }
 }

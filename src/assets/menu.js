@@ -50,6 +50,6 @@ export const dessert = [
   { name: "아이스크림 크로플", src: "아이스크림 크로플.png", price: "6,000"},
   { name: "소금빵", src: "소금빵.png", price: "3,500"},
   { name: "플레인 스콘", desc: "(+ 수제 딸기잼)", src: "플레인 스콘.png", price: "4,000"},
-  { name: "휘낭시에", desc: "(+ 청귤, 꿀)", src: "휘낭시에.png", price: "2,500"},
-  { name: "마카다미아 아이스크림", src: "마카다미아 아이스크림.png", price: "6,000"},
+  { name: "휘낭시에", desc: "(+ 청귤 & 꿀)", src: "휘낭시에.png", price: "2,500"},
+  { name: "마카다미아 아이스크림", src: "마카다미아 아이스크림.PNG", price: "6,000"},
 ];

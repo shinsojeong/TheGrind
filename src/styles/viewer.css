@@ -10,13 +10,14 @@
 
 #viewer {
   position: fixed;
+  top: calc(((100vh - 70vh) + 100px) / 2);
   left: 5vw;
   width: 90vw;
   height: 70vh;
   line-height: 70vh;
   border: 1px solid #999999;
   border-radius: 10px;
-  background-color: white;
+  background-color: #f6f6f6;
   text-align: center;
   -webkit-animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
           animation: fade-in 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
@@ -30,6 +31,8 @@
 #viewerImg {
   object-fit: contain;
   vertical-align: middle;
+  width: 80vw;
+  max-height: 50vh;
 }
 
 @-webkit-keyframes fade-in {
@@ -41,35 +44,16 @@
   100% {opacity: 1;}
 }
 
-@media (max-width: 599px) {
-  #viewer {
-    top: 90px;
-  }
+@media (max-width: 600px) {
   #viewerName {
     font-size: 20px;
   }
-  #viewerImg {
-    width: 80vw;
-    max-height: 35vh;
-  }
 }
 
-@media ((min-width: 600px) and (max-width: 899px)) {
-  #viewer {
-    top: calc(50% - 50vw);
-  }
-  #viewerImg {
-    width: 80vw;
-    max-height: 50vh;
-  }
-}
+/* @media ((min-width: 600px) and (max-width: 900px)) {
 
-@media (min-width: 900px) {
-  #viewer {
-    top: 120px;
-  }
-  #viewerImg {
-    width: 80vw;
-    max-height: 50vh;
-  }
-}
+} */
+
+/* @media (min-width: 900px) {
+
+} */

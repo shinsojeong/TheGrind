@@ -1,4 +1,6 @@
-// service-worker.js
+import { precacheAndRoute } from 'workbox-precaching';
+// eslint-disable-next-line no-restricted-globals
+precacheAndRoute(self.__WB_MANIFEST);
 
 const putInCache = async (request, response) => {
   const cache = await caches.open("v1");
@@ -36,7 +38,8 @@ const cacheFirst = async ({ request, fallbackUrl }) => {
   }
 };
 
-window.addEventListener("fetch", (event) => {
+// eslint-disable-next-line no-restricted-globals
+self.addEventListener("fetch", (event) => {
   event.respondWith(
     cacheFirst({
       request: event.request,

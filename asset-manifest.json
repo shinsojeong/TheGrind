@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/TheGrind/static/css/main.e44a0779.css",
+    "main.js": "/TheGrind/static/js/main.2c1eac1c.js",
+    "service-worker.js": "/TheGrind/service-worker.js",
+    "index.html": "/TheGrind/index.html",
+    "main.e44a0779.css.map": "/TheGrind/static/css/main.e44a0779.css.map",
+    "main.2c1eac1c.js.map": "/TheGrind/static/js/main.2c1eac1c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e44a0779.css",
+    "static/js/main.2c1eac1c.js"
+  ]
+}

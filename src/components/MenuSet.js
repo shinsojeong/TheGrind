@@ -8,7 +8,18 @@ const MenuSet = ({title, assets, setViewState, isEnglish}) => {
       <p id="menuTitle">{title}</p>
       <div id="menuSet">
         {assets.map(({name, enName, src, desc, enDesc, price, tag}, idx) => {
-          return <MenuItem key={idx} name={isEnglish ? enName : name} src={src} desc={isEnglish ? enDesc : desc} price={price} tag={tag} setViewState={setViewState}/>
+          return (
+            <MenuItem 
+              key={idx}
+              isEnglish={isEnglish}
+              name={isEnglish ? enName : name} 
+              src={src} 
+              desc={isEnglish ? enDesc : desc} 
+              price={price} 
+              tag={tag} 
+              setViewState={setViewState}
+            />
+          )
         })}
       </div>
     </div>

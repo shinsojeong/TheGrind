@@ -2,7 +2,7 @@ import React from 'react';
 import Tag from '../components/Tag';
 import '../styles/menu.css';
 
-const MenuItem = ({src, name, desc, price, tag, setViewState}) => {
+const MenuItem = ({isEnglish, src, name, desc, price, tag, setViewState}) => {
   const click = () => {
     // if (window.screen.width < 1024) {
       setViewState({
@@ -14,9 +14,9 @@ const MenuItem = ({src, name, desc, price, tag, setViewState}) => {
 
   return (
     <div id="menuItem" onClick={() => click()}>
-      <p id="menuName">{name}</p>
-      {desc && <p id="menuDesc">{desc}</p>}
-      <p id="menuPrice">{price}</p>
+      <p id="menuName" style={isEnglish ? {fontSize: "0.9em", marginBottom: "1px"} : {}}>{name}</p>
+      {desc && <p id="menuDesc" style={isEnglish ? {fontSize: "0.8em"} : {}}>{desc}</p>}
+      <p id="menuPrice" style={isEnglish ? {fontSize: "0.9em"} : {}}>{price}</p>
       <div id="menuImgCover">
         <img src={`${process.env.PUBLIC_URL}/images/menu/${src}`} alt={name} id="menuImg"/>
       </div>

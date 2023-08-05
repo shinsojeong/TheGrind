@@ -16,7 +16,7 @@ export const milk = [
   { name: "제주 보리개역", enName: "Jeju Barley Latte", src: "제주 보리개역.png", price: "￦6,000" },
   { name: "생초코라떼", enName: "Natural Chocolate Latte", src: "생초코라떼.png", price: "￦6,500" },
   { name: "딸기라떼", enName: "Strawberry Latte", src: "딸기라떼.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
-  { name: "솜사탕 딸기라떼", enName: "Cotton Candy Strawberry Latte", desc: "(솜사탕 체험 + 딸기라떼)", enDesc:"(Making Cotton Candy + Strawberry Latte)", src: "솜사탕 딸기라떼.png", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
+  { name: "솜사탕 딸기라떼", enName: "Cotton Candy Strawberry Latte", desc: "(솜사탕 체험 + 딸기라떼)", enDesc:"(+Making Cotton Candy)", src: "솜사탕 딸기라떼.png", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
 ];
 
 export const freshJuice = [

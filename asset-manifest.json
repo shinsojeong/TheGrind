@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/TheGrind/static/css/main.c5751a28.css",
-    "main.js": "/TheGrind/static/js/main.8a4aad0e.js",
+    "main.js": "/TheGrind/static/js/main.39a1939f.js",
     "service-worker.js": "/TheGrind/service-worker.js",
     "index.html": "/TheGrind/index.html",
     "main.c5751a28.css.map": "/TheGrind/static/css/main.c5751a28.css.map",
-    "main.8a4aad0e.js.map": "/TheGrind/static/js/main.8a4aad0e.js.map"
+    "main.39a1939f.js.map": "/TheGrind/static/js/main.39a1939f.js.map"
   },
   "entrypoints": [
     "static/css/main.c5751a28.css",
-    "static/js/main.8a4aad0e.js"
+    "static/js/main.39a1939f.js"
   ]
 }

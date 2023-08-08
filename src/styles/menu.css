@@ -43,12 +43,14 @@
 }
 
 #menuItem {
+  position: relative;
+  height: auto !important;
   flex: 1;
   margin: 0;
   /* border: 1px solid #999999; */
   border-radius: 10px;
   margin: 0 0 3px 0;
-  padding: 0 5px;
+  padding: 5px 5px 10px 5px;
   display: flex;
   flex-direction: column;
   background-color: #f6f6f6;
@@ -86,7 +88,6 @@
   }
   #menuItem {
     width: 40vw;
-    height: 50vw;
   }
   #menuName, #menuPrice {
     font-size: 14px;
@@ -111,7 +112,6 @@
   }
   #menuItem {
     width: 40vw;
-    height: 50vw;
   }
   #menuDesc {
     font-size: 12px;
@@ -183,7 +183,6 @@
   }
   #menuItem {
     width: 29vw;
-    height: 32vw;
   }
   #menuDesc {
     font-size: 16px;

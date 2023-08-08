@@ -1,5 +1,8 @@
 #tagWrap {
+  height: 100%;
   position: absolute;
+  top: calc(100% - 2.8em - 10px);
+  left: 10px;
 }
 
 #tag {
@@ -8,8 +11,6 @@
   border-radius: 2.8rem;
   display: flex;
   align-items: center;
-  position: absolute;
-  left: 5px;
 }
 
 #tagText {

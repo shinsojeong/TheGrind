@@ -16,7 +16,7 @@ export const milk = [
   { name: "제주 보리개역", enName: "Jeju Barley Latte", src: "제주 보리개역.png", price: "￦6,000" },
   { name: "생초코라떼", enName: "Natural Chocolate Latte", src: "생초코라떼.png", price: "￦6,500" },
   { name: "딸기라떼", enName: "Strawberry Latte", src: "딸기라떼.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
-  { name: "솜사탕 딸기라떼", enName: "Cotton Candy Strawberry Latte", desc: "(솜사탕 체험 + 딸기라떼)", enDesc:"(+Making Cotton Candy)", src: "솜사탕 딸기라떼.png", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
+  { name: "솜사탕 딸기라떼", enName: "Cotton Candy Strawberry Latte", desc: "(+솜사탕 만들기 체험)", enDesc:"(+Making Cotton Candy)", src: "솜사탕 딸기라떼.png", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
 ];
 
 export const freshJuice = [
@@ -43,7 +43,7 @@ export const adeAndSmoothie = [
   { name: "자두 복숭아 칠러", enName: "Plum Peach Chiller", src: "자두 복숭아 칠러.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
   { name: "자스민 망고 피치 스무디", enName: "Jasmin Mango Peach Smoothie", src: "자스민 망고 피치 스무디.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
   { name: "망고 요거트 스무디", enName: "Mango Yogurt Smoothie", src: "망고 요거트 스무디.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
-  { name: "솜사탕돌고래에이드", enName: "Cotton Candy Dolphin Ade", src: "솜사탕돌고래에이드.png", desc: "(솜사탕 체험 + 돌고래에이드)", enDesc: "(Making Cotton Candy + Dolphin Ade)", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
+  { name: "솜사탕돌고래에이드", enName: "Cotton Candy Dolphin Ade", src: "솜사탕돌고래에이드.png", desc: "(+솜사탕 만들기 체험)", enDesc: "(+Making Cotton Candy)", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
 ];
 
 export const dessert = [

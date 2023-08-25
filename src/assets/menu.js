@@ -43,7 +43,7 @@ export const adeAndSmoothie = [
   { name: "자두 복숭아 칠러", enName: "Plum Peach Chiller", src: "자두 복숭아 칠러.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
   { name: "자스민 망고 피치 스무디", enName: "Jasmin Mango Peach Smoothie", src: "자스민 망고 피치 스무디.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
   { name: "망고 요거트 스무디", enName: "Mango Yogurt Smoothie", src: "망고 요거트 스무디.png", price: "￦6,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
-  { name: "솜사탕돌고래에이드", enName: "Cotton Candy Dolphin Ade", src: "솜사탕돌고래에이드.png", desc: "(+솜사탕 만들기 체험)", enDesc: "(+Making Cotton Candy)", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
+  { name: "솜사탕돌고래에이드", enName: "Cotton Candy Dolphin Ade", src: "솜사탕돌고래에이드.PNG", desc: "(+솜사탕 만들기 체험)", enDesc: "(+Making Cotton Candy)", price: "￦9,500", tag: {background: "#003299", color: "white", text: "ONLY ICE"} },
 ];
 
 export const dessert = [

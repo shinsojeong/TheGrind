@@ -60,6 +60,7 @@
   margin: 0 auto;
   text-align: center;
   flex: 1;
+  height: max-content;
 }
 
 #menuName {
@@ -189,9 +190,8 @@
   }
   #menuImgCover {
     width: 25vw;
-    height: 25vw;
-    max-height: 200px;
-    line-height: 20vw;
+    height: max-content;
+    margin: 5px auto;
   }
   #menuImg {
     width: 18vw;
